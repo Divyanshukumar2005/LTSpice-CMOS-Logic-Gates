@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# LTSpice output/log files (regenerated on simulation run)
+*.raw
+*.log
+*.op.raw
+*.net
+
+# Editor files
+.vscode/
+*.swp
