@@ -1,0 +1,31 @@
+* Ratioed Logic Gates — 2-input NAND, NOR
+* TSMC 180nm process library
+.lib tsmc018.lib
+
+VDD    vdd   0   DC 1.8
+
+* --- Inputs ---
+VA     a     0   PULSE(0 1.8 0 0 0 25n 50n)
+VB     b     0   PULSE(0 1.8 0 0 0 50n 100n)
+
+* =========================================================
+* Ratioed NAND Gate
+* Pull-up: single weak PMOS (M2), gate tied to GND -> always ON
+* Pull-down: NMOS M3, M4 in series
+M2     y_nand  0   vdd     vdd  CMOSP  W=1u  L=0.18u
+M3     y_nand  a   n_mid   0    CMOSN  W=1u  L=0.18u
+M4     n_mid   b   0       0    CMOSN  W=1u  L=0.18u
+
+* =========================================================
+* Ratioed NOR Gate
+* Pull-up: single weak PMOS (M1), gate tied to GND -> always ON
+* Pull-down: NMOS M5, M6 in parallel
+M1     y_nor   0   vdd     vdd  CMOSP  W=1u  L=0.18u
+M5     y_nor   a   0       0    CMOSN  W=1u  L=0.18u
+M6     y_nor   b   0       0    CMOSN  W=1u  L=0.18u
+
+* --- Transient Analysis: cycles all 4 input combinations ---
+.tran 0 400n
+
+.backanno
+.end
