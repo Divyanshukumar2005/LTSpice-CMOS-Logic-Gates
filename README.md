@@ -28,7 +28,7 @@ Each style is fully characterized: transient truth-table verification, propagati
 
 ---
 
-## 📖 Contents
+## Contents
 
 ### [Static CMOS Logic Gates — NAND, AND, NOR](static-cmos-logic-gates/)
 
@@ -55,7 +55,7 @@ Rebuilds the NAND and NOR gates using a single always-ON weak PMOS pull-up inste
 
 ---
 
-## ⚖️ The Core Design Trade-off
+## The Core Design Trade-off
 
 Both styles implement the *same Boolean functions*, with the *same pull-down network topology* (NMOS in series for NAND, NMOS in parallel for NOR) — the only real difference is the pull-up network:
 
