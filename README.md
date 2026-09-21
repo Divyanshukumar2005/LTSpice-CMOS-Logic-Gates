@@ -17,7 +17,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Every Boolean function in a digital IC can be built from NAND, AND, and NOR gates — but *how* those gates are built at the transistor level involves a real design trade-off. This repository implements the same 2-input NAND and NOR gates (plus AND, derived from NAND) in **two competing CMOS design styles**, using the TSMC 180 nm process library (`tsmc018.lib`) throughout:
 
