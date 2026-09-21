@@ -84,7 +84,7 @@ All simulation decks are plain-text SPICE netlists, included in each section's `
 
 ---
 
-## 📊 Comparative Summary
+## Comparative Summary
 
 | Gate | Style | t_pHL (ps) | t_pLH (ps) | t_p (ps) | V_OL (V) | NM_L (V) |
 |---|---|---|---|---|---|---|
@@ -98,7 +98,7 @@ Ratioed logic gates are modestly *faster* per-gate (lower t_p) than their static
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 LTSpice-CMOS-Logic-Gates/
@@ -119,7 +119,7 @@ LTSpice-CMOS-Logic-Gates/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 <div align="center">
 
@@ -137,6 +137,6 @@ B.Tech (Electronics & Communication Engineering) · University of Delhi
 
 <div align="center">
 
-⭐ **If you found this project useful or interesting, consider giving it a star!**
+ **If you found this project useful or interesting, consider giving it a star!**
 
 </div>
