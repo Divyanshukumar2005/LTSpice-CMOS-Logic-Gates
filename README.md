@@ -73,7 +73,7 @@ This is exactly the trade-off real IC designers face when choosing a logic famil
 
 ---
 
-## 🛠️ Tools & Environment
+## Tools & Environment
 
 | Tool | Purpose |
 |---|---|
