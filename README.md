@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔲 CMOS Logic Gates — Static CMOS vs. Ratioed Logic
+# CMOS Logic Gates — Static CMOS vs. Ratioed Logic
 
 ### 2-input NAND, AND, and NOR gates in two competing design styles — TSMC 180 nm, LTSpice
 
